@@ -14,7 +14,7 @@
 #include <board.h>
 
 /* defined the LED0 pin: PF9 */
-#define LED0_PIN    GET_PIN(C, 13)
+#define LED0_PIN GET_PIN(C, 13)
 
 int main(void)
 {

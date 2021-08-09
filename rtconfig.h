@@ -3,7 +3,7 @@
 
 /* Automatically generated file; DO NOT EDIT. */
 /* RT-Thread Configuration */
-#define HAVE_SYS_SELECT_H
+#define HAVE_SYS_SELECT_H 
 /* RT-Thread Kernel */
 
 #define RT_NAME_MAX 8
@@ -91,6 +91,7 @@
 #define RT_SERIAL_USING_DMA
 #define RT_SERIAL_RB_BUFSZ 64
 #define RT_USING_PIN
+#define RT_USING_WDT
 
 /* Using USB */
 
@@ -265,6 +266,7 @@
 #define BSP_USING_UART
 #define BSP_USING_UART1
 #define BSP_USING_UART3
+#define BSP_USING_WDT
 
 /* Board extended module Drivers */
 
